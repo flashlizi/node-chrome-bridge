@@ -8,10 +8,10 @@ This NodeJS library helps you to communicate with chrome extension/app.
 ```
 var chromeBridge = require('chrome-bridge');
 
-//send a message
+//send a message to chrome
 chromeBridge.sendMessage({text:'hello chrome!'});
 
-//listen message
+//listen message from chrome
 chromeBridge.on('message', function(msg){
     console.log('received from chrome:', msg);
 });
@@ -19,7 +19,7 @@ chromeBridge.on('message', function(msg){
 
 ### APIs
 
-* `sendMessage(msgObject)` - Send a message to chrome extension/app.
+* `sendMessage(msgObject)` - Send a message to chrome extension/app. The `msgObject` must be a JSON object.
 * `on('message', handler)` - Listen messages from chrome extension/app.
 
 
