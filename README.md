@@ -29,8 +29,8 @@ There is a simple demo `Web Terminal`, you can check it in the `demo` folder.
 
 * If you don't have `NodeJS` installed, install it first.
 * Install native host. open a terminal, cd to the `/demo/host` directory, run command `sh install_host.sh`.
-* Open a tab with `chrome://extensions/` in chrome, load the extension with `/demo` directory, the you will see a `cube` popup icon on the right of navigation bar.
-* Click and open a page, play any commands on it, such as `node -v`.
+* Open a tab with `chrome://extensions/` in chrome, load the extension with `/demo` directory, you will see a `cube` popup icon on the right of navigation bar.
+* Click it and open a page, play any commands on it, such as `node -v`.
 
 Here is the screenshot:
 
