@@ -1,0 +1,24 @@
+{
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcBHwzDvyBQ6bDppkIs9MP4ksKqCMyXQ/A52JivHZKh4YO/9vJsT3oaYhSpDCE9RPocOEQvwsHsFReW2nUEc6OLLyoCFFxIb7KkLGsmfakkut/fFdNJYh0xOTbSN8YvLWcqph09XAY2Y/f0AL7vfO1cuCqtkMt8hFrBGWxDdf9CQIDAQAB",
+  "name": "Web Terminal",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A Web Terminal run in chrome.",
+  "browser_action": {
+    "default_icon": "icon-128.png",
+    "default_tip": "Web Terminal"
+  },
+  "background": {
+      "scripts": [
+        "background.js"
+      ]
+   },
+  "icons": {
+    "16": "icon-16.png",
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "nativeMessaging",
+    "proxy"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "web.terminal",
+  "description": "A Web Terminal Host",
+  "path": "HOST_PATH",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://knldjmfmopnpolahpmmgbagdohdnhkik/"
+  ]
+}
